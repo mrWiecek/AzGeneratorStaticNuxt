@@ -13,5 +13,6 @@ steps:
   - task: AzureStaticWebApp@0
     inputs:
       app_location: '.'
+      output_location: '.'
       verbose: true
       azure_static_web_apps_api_token: '$(DEPLOY_TOKEN)'
